@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Challenge 1 - Alura ONE</title>
+</head>
+<body>
+    <div class="container">
+               
+        <div class="left-container">
+            <div class="logo">
+                <img class="logo-img" src="img/Vector.png" alt="">
+                <h1 class="tittle">Encriptador de Textos</h1>
+            </div>
+            <div class="input-container">
+                <textarea name="" id="input" class="text-input" cols="30" rows="10" placeholder="Ingresa el texto aquí."></textarea>
+            </div>
+            
+            <div class="left-buttons">
+                <p class="recomendacion"><img src="img/Exclamacion.png" alt="">&nbsp;&nbsp; Solo letras minúsculas y sin acentos</p>
+                <div class="button">
+                    <button type="button" id="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button type="button" id="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+                
+            </div>
+        </div>
+        <div class="right-container">
+            <img id="muneco" src="img/Muñeco.png" alt="">
+            <h3 id="texto-muneco">Ningún texto fue encontrado</h3>
+            <textarea name="" id="mensaje" cols="30" rows="10" placeholder="Ingresa el texto que desees encriptar o desencriptar."></textarea>
+            <button id="copiar" onclick="copiar()">Copiar</button>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

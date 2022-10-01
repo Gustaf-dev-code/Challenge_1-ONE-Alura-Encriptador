@@ -1,0 +1,218 @@
+*{
+   box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #ffffff;
+    font-family: 'Poppins';
+}
+
+.container{
+    margin: 10px auto;
+    width: 960px;
+    border-radius: 20px;
+    height: 100%;
+    padding: 20px;
+    background-color: #F3F5FC;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content:baseline;
+}
+
+.logo-img{
+    margin-left: 5%;
+}
+
+.tittle{
+    margin-left: 3%;
+    float: inherit;
+}
+
+.left-container{
+    float: left;
+    width: 65%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content:space-around;
+}
+
+.input-container{
+    height: 60%;
+    margin-top: 0;
+}
+
+.text-input{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 70%;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #0A3871;
+    background-color: none;
+    font-family: 'Poppins';
+    padding: 10px;
+    resize: none;
+}
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    width: 30%;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    box-shadow: 4px 4px 8px 1px rgba(0, 0, 0, 0.1);
+}
+
+#muneco{
+    margin-top: 5%;
+    width: 70%;
+    height: auto;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#texto-muneco{
+    height: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #343A40;
+    text-align: center;
+}
+
+#mensaje{
+    margin-top: 2%;
+    width: 80%;
+    height: 30%;  ;
+    margin-bottom: 6%;
+    border: none;
+    resize: none;
+    outline: none;
+    font-size: 14px;
+    font-family: 'Poppins';
+    color: #0A3871;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.left-buttons{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    align-items: baseline;
+}
+
+.recomendacion{
+    margin-left: 15%;
+    color: #495057;
+    font-size: 12px;
+}
+
+.button{
+    margin-left: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.button #btn-encriptar{
+    color: #ffffff;
+    border-radius: 15px;
+    background-color: #0A3871;
+    width: 200px;
+    height: 100%;
+    margin-left: 15%;
+    padding: 10px;
+    border-style: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.button #btn-encriptar:hover{
+    color: #0A3871;
+    border-radius: 15px;
+    background-color: #ffffff;
+    width: 200px;
+    height: 100%;
+    margin-left: 15%;
+    padding: 10px;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+    outline: none;
+}
+
+.button #btn-desencriptar{
+    width: 200px;
+    height: 100%;
+    margin-left: 20px;
+    color: #0A3871;
+    border-radius: 15px;
+    background-color:#D8DFE8;
+    padding: 10px;
+    border-style: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.button #btn-desencriptar:hover{
+    width: 200px;
+    height: 100%;
+    margin-left: 20px;
+    color: #0A3871;
+    border-radius: 15px;
+    background-color:#ffffff;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+}
+
+#copiar{
+    width: 200px;
+    height: 40px;
+    margin: 15px auto;
+    color: #0A3871;
+    border-radius: 15px;
+    background-color:#D8DFE8;
+    padding: 10px 80px;
+    border-style: none;
+    cursor: pointer; 
+    display: none;
+    text-align: center;
+    outline: none;
+}
+
+#copiar:hover{
+    width: 200px;
+    height: 40px;
+    margin: 15px auto;
+    color: #0A3871;
+    border-radius: 15px;
+    background-color:#ffffff;
+    padding: 10px 80px;
+    border: 1px solid #0A3871;
+    cursor: pointer; 
+    display: none;
+    outline: none;
+    text-align: center;
+}
